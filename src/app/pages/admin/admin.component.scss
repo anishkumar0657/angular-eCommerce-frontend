@@ -1,0 +1,25 @@
+*{
+  margin : 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.main-container{
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  row-gap: 5px;
+  column-gap: 5px;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+  
+.card-container{
+  border : coral solid thin;
+  border-radius: 2em;
+  text-align: center;
+  display: inline-grid;
+}
+
+.addProductButton{
+  z-index: 2;
+}

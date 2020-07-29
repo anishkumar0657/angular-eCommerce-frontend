@@ -1,0 +1,14 @@
+<div class="main-container">
+  <div class="card-container" *ngFor="let prod of products">
+    <h2>{{prod.title}}</h2>
+    <div class="book-image"><img
+        src="https://images.pexels.com/photos/590493/pexels-photo-590493.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+        width="200px" alt="Book Image"></div>
+    <div class="{{prod.description}}">This is an ammazing book</div>
+    <div class="book-price">Price : ${{prod.price}}</div>
+    <div class="action-button">
+      <button mat-button style="font-size:15px" class="link-btn">Add To Cart</button>
+      <button mat-button style="font-size:15px" class="link-btn"  (click)=showDetails(prod) >Details</button>
+    </div>
+  </div>
+</div>

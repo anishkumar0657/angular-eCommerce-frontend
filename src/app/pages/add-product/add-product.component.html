@@ -1,0 +1,25 @@
+<div class="productCard">
+    <form #addProductForm="ngForm" novalidate>
+        <div class="form-control">
+             <label for="title">Title</label>
+            <input type="text" name="title" id="title" [(ngModel)]="productModel.title">
+        </div>
+    
+        <div class="form-control">
+            <label for="imageUrl">Image URL</label>
+            <input type="text" name="imageURL" id="imageUrl" [(ngModel)]="productModel.imageURL">
+        </div>
+    
+        <div class="form-control">
+            <label for="price">Price</label>
+            <input type="number" name="price" id="price" step="0.01" [(ngModel)]="productModel.price">
+        </div>
+    
+        <div class="form-control">
+            <label for="description">Description</label>
+            <textarea name="description" id="description" rows="5" [(ngModel)]="productModel.description"></textarea>
+        </div>
+    
+        <button mat-button type="button" color="primary" (click)="addNewProduct()">{{button_text}}</button>
+    </form>
+    </div>

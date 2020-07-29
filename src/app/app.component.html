@@ -1,0 +1,53 @@
+<div class="wrapper">
+  <mat-toolbar class="app-suite-toolbar">
+    <a routerLink="/home">
+      <img class="logo" src="../assets/bookstore.png" width="50px" height="50px" alt="B">
+    </a>
+    <h1 class="app-name">Book Store</h1>
+    <span class="fill-remaining-space"></span>
+    <span>
+      <ul class="nav-links">
+        <li>
+          <a href="home">Home</a>
+        </li>
+        <li>
+          <a href="cart">Cart</a>
+        </li>
+        <li>
+          <a href="orders">Orders</a>
+        </li>
+        <li>
+          <a href="admin">Admin</a>
+        </li>
+        <li>
+          <a href="login">Login</a>
+        </li>
+      </ul>
+    </span>
+  </mat-toolbar>
+</div>
+<!-- 
+    <div class="burger">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+  </nav>
+-->
+
+<main>
+  <div class="app-body">
+    <router-outlet></router-outlet>
+  </div>
+</main>
+<div class="foot">
+  <footer class="mainFooter">
+    <div class="app-footer">
+      Copyright &copy; Warnings 
+    </div>
+    <div>
+      Icons made by <a href="https://www.flaticon.com/authors/surang" title="surang">surang</a> from <a
+      href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+    </div>
+  </footer>
+</div>
