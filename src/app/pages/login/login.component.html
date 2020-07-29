@@ -1,0 +1,14 @@
+<div class="main-container">
+    <div class="login">Login</div>
+    
+    <label for="email">Email</label>
+    <input type="email" required placeholder="Enter your Email">
+
+    <label for="password">Password</label>
+    <input type="password" required placeholder="Enter your password">
+    
+    <div class="buttons">    
+        <button type="submit" (click)="loginUser()">Login</button>
+        <button type="submit" [routerLink]="['/home']">Cancel</button>
+    </div>
+</div>

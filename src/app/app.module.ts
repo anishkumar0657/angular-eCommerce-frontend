@@ -13,6 +13,7 @@ import {FormsModule} from '@angular/forms';
 import { AddProductComponent } from './pages/add-product/add-product.component';
 import { ProductDetailsComponent } from './pages/product-details/product-details.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import { LoginComponent } from './pages/login/login.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
     AdminComponent,
     AddProductComponent,
     ProductDetailsComponent,
+    LoginComponent,
 
   ],
   imports: [

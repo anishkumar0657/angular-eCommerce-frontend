@@ -24,9 +24,9 @@
 .fill-remaining-space{
     flex: 10 10 auto;
 }
-.app-body{
-   
-}
+.app-body::-webkit-scrollbar {
+    display: none;
+  }
 .mainFooter{
     display: flex;
     align-items: center;
@@ -45,6 +45,7 @@
 
 .nav-links li{
     list-style: none;
+    padding-left: 3em;
 }
 
 .nav-links a{
@@ -52,13 +53,15 @@
     text-decoration: none;
     letter-spacing: 3px;
     font-size: 14px;
-    padding-left: 3rem;
+
 }
 .logo{
     color: rgb(226, 226, 226);
     padding-right: 4px;
 }
-
+.centre{
+    width: 100%;
+}
 // nav{
 //     display: flex;
 //     align-items: center;

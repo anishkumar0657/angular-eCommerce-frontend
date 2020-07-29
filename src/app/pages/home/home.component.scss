@@ -2,6 +2,7 @@
   margin : 0;
   padding:0;
   box-sizing: border-box;
+  overflow-y: hidden;
 }
 
 .main-container{
@@ -13,15 +14,13 @@
   padding: 10px;
   background-color: gray;
 }
-  
+.main-container::-webkit-scrollbar {
+  display: none;
+} 
 .card-container{
   border : coral solid thin;
   border-radius: 5px;
   text-align: center;
   display: inline-grid;
   background-color:ivory;
-}
-
-.card-container h2{
-  
 }

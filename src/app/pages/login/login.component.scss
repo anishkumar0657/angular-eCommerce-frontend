@@ -1,0 +1,35 @@
+.main-container{
+    width: 30em;
+    height: 30em;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translateY(-50%);
+    border: darkgrey solid;
+    border-radius: 3em;
+    display: flex;
+    flex-direction: column;
+    //justify-content: space-around;
+    padding: 1em;
+}
+
+.main-container .login{
+    text-align: center;
+    color: darkgrey;
+    font-size: xx-large;
+}
+
+
+.main-container label{
+    padding-top: 4em;
+}
+
+.buttons{
+    margin-top: 3em;
+    width: 100%;
+    align-items: center;
+}
+button{
+   width: 7em;
+   border-radius: 5px;
+}
